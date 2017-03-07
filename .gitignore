@@ -1,0 +1,46 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse meta files
+.settings
+.project
+
+target
+*/target
+
+*/.classpath
+
+## UI
+#
+user-list-ui/node_modules
+user-list-ui/jspm_packages
+user-list-ui/npm-debug.log
+user-list-ui/debug.log
+user-list-ui/src/**/*.js
+user-list-ui/!src/systemjs.config.extras.js
+user-list-ui/!src/systemjs.config.js
+user-list-ui/**/*.js.map
+user-list-ui/e2e/**/*.js
+user-list-ui/e2e/**/*.js.map
+user-list-ui/_test-output
+user-list-ui/_temp
